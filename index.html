@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsiveness and Media Queries</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div>
+        <div>
+          <h2>Learn to code by watching others</h2>
+          <p>
+            See how experienced developers solve problems in real time.<br />
+            Watching scripted tutorials is great,but understanding how <br />
+            developers think is valuable.
+          </p>
+        </div>
+        <div>
+            <head>Try it free 7 days then $20/mo.thereafter</head>
+            <div>
+                <form action="" method="post">
+                    <div>
+                    <label for="fname">First Name:</label>
+                    <input
+                      type="text"
+                      id="fname"
+                      name="firstname"
+                      placeholder="Your name.."
+                      maxlength="7"
+                      minlength="3"
+                      required/>
+                </form>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+              maxlength="10"
+              minlength="3"
+              required
+            />
+            </div>
+            <div>
+                <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="johnbarnes@gmail.com"
+              required
+            />
+            </div>
+            <div>
+                <label for="password">Password</label>
+            <input
+              type="password"
+              name="text"
+              id="password"
+              required
+              pattern="(?.*d)(?=.*[a-z)(?.*[A-Z]"
+            />
+            <button type="submit" class="btn" >CLAIM YOUR FREE TRIAL</button>
+            </div>
+            <p>By clicking the button you are agreeing to our Terms and services</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
